@@ -1,0 +1,4 @@
+#!/bin/sh
+ip addr add "44.134.38.X/23" dev "$INTERFACE"
+ip link set dev "$INTERFACE" up
+
